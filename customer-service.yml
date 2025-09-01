@@ -3,6 +3,7 @@ spring:
   name: customer-service
  datasource:
   url: jdbc://localhost:3306/springboot
+  driverClassName: com.mysql.cj.jdbc.Driver
 jpa:
  hibernate:
   ddl-auto: none
