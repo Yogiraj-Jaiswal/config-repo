@@ -3,8 +3,6 @@ spring:
   name: customer-service
  datasource:
   url: jdbc://localhost:3306/springboot
-  username: root
-  password: manager@123
 jpa:
  hibernate:
   ddl-auto: none
